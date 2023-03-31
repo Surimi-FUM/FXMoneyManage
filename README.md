@@ -1,7 +1,11 @@
 # FXMoneyManage
 FXの資金管理として、最適Lot数を計算するツール  
 
-![a](https://user-images.githubusercontent.com/116449282/229022613-9a7d5468-6257-4dc9-ac9e-ee887f3f8fe7.png)
+![a](https://user-images.githubusercontent.com/116449282/229022613-9a7d5468-6257-4dc9-ac9e-ee887f3f8fe7.png)  
+
+最適Lot = リスク許容額 / リスク許容幅 * 円換算率  
+リスク許容額 = 資金　*　損切率（％）  
+リスク許容幅 = 見込み利確幅　/ 利益率  
 
 ## 開発環境
 PC：Windows 10 Pro、Intel Core i7-6700K  
